@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background3.png);
+    background-image: url(images/sample1.png);
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
     flex-wrap: wrap;
 }
 .logo{
@@ -39,7 +39,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    position: relative;
+    position:relative;
 }
 nav ul li a::after{
     content: '';
@@ -61,6 +61,7 @@ nav ul li a::after::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    text-align:center;
 }
 
 .header-text h1 span{
@@ -321,7 +322,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background1.png);
+        background-image: url(images/Phone_site_bg.png);
     }
     .header-text{
         margin-top: 50%;
